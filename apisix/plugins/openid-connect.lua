@@ -78,6 +78,11 @@ local schema = {
             type = "string",
             default = "/logout",
         },
+        revoke_tokens_on_logout = {
+            description = "revoke_tokens_on_logout options from lua resty openidc",
+            type = "boolean",
+            default = false
+        },
         redirect_uri = {
             type = "string",
             description = "use ngx.var.request_uri if not configured"
