@@ -20,8 +20,8 @@ version = "3.2.0-0"
 supported_platforms = {"linux", "macosx"}
 
 source = {
-    url = "git://github.com/apache/apisix",
-    branch = "3.2.0",
+    url = "git://github.com/quantranhong1999/apisix",
+    branch = "custom-3.2",
 }
 
 description = {
