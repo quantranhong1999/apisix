@@ -18,6 +18,7 @@
 local core    = require("apisix.core")
 local ngx_re  = require("ngx.re")
 local openidc = require("resty.openidc")
+openidc.set_logging(nil, { DEBUG = ngx.INFO })
 local random  = require("resty.random")
 local string  = string
 local ngx     = ngx
